@@ -126,8 +126,12 @@ delimiter ;
 -- Cập nhật nợ học phí (total_debt) cho sinh viên này là 5,000,000.
 -- Xác nhận (COMMIT) Transaction.
 start transaction;
-insert into students(student_id, full_name) values ('SV06', 'Ha Bich Ngoc');
-update students set total_debt = 5000000 where student_id = 'SV06';
+insert into students(student_id, full_name) 
+values 
+	('SV06', 'Ha Bich Ngoc');
+update students 
+set total_debt = 5000000 
+where student_id = 'SV06';
 commit;
 
 -- Câu 4 (Transaction & Procedure cơ bản - 15đ): Viết một Stored Procedure đơn giản tên sp_pay_tuition thực hiện việc đóng học phí cho sinh viên 'SV01' với số tiền 2,000,000.
