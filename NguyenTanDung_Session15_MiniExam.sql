@@ -67,6 +67,10 @@ values
 	('SV04', 'MH04', 8.5),
 	('SV05', 'MH05', 6);
 
+-- II. Nội dung yêu cầu
+-- PHẦN A – CƠ BẢN (40 điểm)
+-- PHẦN B – KHÁ (30 điểm)
+-- PHẦN C – GIỎI (30 điểm)
 delimiter //
 
 -- Câu 1 (Trigger - 20đ): Nhà trường yêu cầu điểm số (score) nhập vào hệ thống phải luôn hợp lệ (từ 0 đến 10). 
